@@ -28,8 +28,8 @@ spec:
         image: expense.app:latest
         resources:
           limits:
-            cpu: 200m
+            cpu: 500m
             memory: 200Mi
           requests:
-            cpu: 100m
+            cpu: 500m
             memory: 100Mi
