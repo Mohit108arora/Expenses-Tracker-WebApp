@@ -54,3 +54,4 @@ healthchecks : ["ping" "7000" "ping"]
    memory: 500gib
    cpu   : 25mib
    service type: application load balancer 
+   
