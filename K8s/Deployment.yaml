@@ -33,25 +33,5 @@ spec:
           requests:
             cpu: 500m
             memory: 100Mi
-memory: 200gib
-cpu:    50mib
-image:  200mi
-       name:host
-       value: http://web:5000
 
-template: 
-  label:
-    metadata: 
-     service: load balancer
-     - name: Host 
-     - memory: Slient
-healthchecks : ["ping" "interval" "5000"] 
-template:
-   label:
-   metadata:
-   service: service mesh
-healthchecks : ["ping" "7000" "ping"]
-   memory: 500gib
-   cpu   : 25mib
-   service type: application load balancer 
    
